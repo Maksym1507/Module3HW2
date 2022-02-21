@@ -52,9 +52,9 @@ namespace Module3HW2
 
                 CultureInfo cultureInfo = Console.ReadLine() switch
                 {
-                    "en" => new CultureInfo("en-GB"),
+                    "en" => new CultureInfo("en-US"),
                     "ru" => new CultureInfo("ru-RU"),
-                    _ => new CultureInfo("en-GB"),
+                    _ => new CultureInfo("en-US"),
                 };
 
                 _contactListService.SetCulture(cultureInfo);
