@@ -32,7 +32,7 @@ namespace Module3HW2.Models
 
         public override string ToString()
         {
-            return $"FIO: {FullName} | Phone number: +38{PhoneNumber}";
+            return $"FIO: {FullName} | Phone number: +380{PhoneNumber}";
         }
     }
 }
